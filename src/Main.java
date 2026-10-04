@@ -41,7 +41,7 @@ public class Main {
     public static void main(String[] args) {
         int[] vector = {34, 7, 23, 32, 5, 62, 11, 0, 90, 4, 18};
 
-        System.out.println("Vectorul inițial:");
+        System.out.println("V init:");
         printArray(vector);
 
         quickSort(vector, 0, vector.length - 1);
